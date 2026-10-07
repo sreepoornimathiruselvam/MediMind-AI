@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secrets and API keys (never commit these)
+.env
+*.env
+.streamlit/secrets.toml
+
+# Private medical reports and uploaded patient files
+# Keep real reports only in these folders so they stay on your computer
+private_reports/
+medical_reports/
+uploads/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
